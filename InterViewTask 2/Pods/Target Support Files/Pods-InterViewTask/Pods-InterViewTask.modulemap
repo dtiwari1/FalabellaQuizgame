@@ -1,0 +1,6 @@
+framework module Pods_InterViewTask {
+  umbrella header "Pods-InterViewTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
