@@ -5,25 +5,26 @@ Interview Task
 
 Purpose
 --------------
-I am creating this project for my job interview task for GetBasis company. The purpose of the task was to create a similar app to Google Primer app.
+I am creating this project for my job interview task for Falabella India. The purpose of the task was to create a Quiz app.
 
 ## Features
 * Smooth user interface.
-* Thread safe.
 * Easy to use and customise the code.
 
 ## Task accomplishments
 
-1. Fetch the data and display it as swipeable cards.
-2. Swipe the card to move to the next card.
-3. Go back to the previous card. (By swiping also. You can define the swiping gesture for previous card movement)
-4. Restart it from the beginning.
-5. Track the progress of the cards (Say, the current card is #4 out of 10, any indicator mentioning the progress.)
-Please note that every json response starts with a '/' character. You need to parse it accordingly.
-Your code will be judged on the basis of the architecture it follows and a proper separation of concerns.
+● First screen should ask for name, age and gender. All information should be saved in any persistence store. User info don’'t need to be unique. 
+● Fetch quizzes from API  
+● Save in any persistence store. 
+● Fetch any five random quizzes from the persistence store and show one by one on the next screen. One quiz question should be shown at a time(Capitalize questions and options, if required). 
+● There should be a 10 seconds timer for every question. Wrong answer or failing to answer in stipulated time will deduct 10 points and the correct answer will add 20 points + seconds left from the timer. 
+Eg: If a person answers in 4 seconds, points to be credited would be 20(Correct answer point) + 6(seconds left before the correct answer was selected). 
+● Save results in any persistence store and show top 5 scores on the results page. 
+● Quiz results should be saved and will be accessed from the launch screen.
+
 
 ## Requirements
-- Xcode 11.4
+- Xcode 11.2.1
 - Swift 5
 - Minimum os version 11.2
 
