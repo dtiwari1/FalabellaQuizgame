@@ -1,7 +1,7 @@
 # FalabellaQuizgame
 Interview Task
 
-![Preview](https://github.com/dtiwari1/GetBasisSwipeable/blob/master/ezgif.com-video-to-gif.gif)
+![Preview](https://github.com/dtiwari1/FalabellaQuizgame/blob/master/Screen%20Recording%202020-05-19%20at%203.45.23%20PM.gif)
 
 Purpose
 --------------
